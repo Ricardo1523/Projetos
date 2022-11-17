@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+	<h1>Gerações</h1>
+
+<script>
+	function pularLinha()
+	{
+		document.write("<br>");
+	}
+	function geracao(geracoes)
+	{
+		document.write(geracoes);
+		pularLinha();
+	}
+	var chegadaPortugueses = 1500;
+	var anoAtual = 2021;
+	var mediaDeGeracoes = chegadaPortugueses + anoAtual;
+
+	geracao("A quantidade de Gerações são " + Math.round(mediaDeGeracoes/28));
+
+
+</script>
